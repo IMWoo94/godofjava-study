@@ -1,0 +1,9 @@
+package c.annotation;
+
+public class AnnotationSample {
+	@SupperssWarnings("deprecation")
+	public void useDeprecated(){
+		AnnotationDeprecated ad = new AnnotationDeprecated();
+		ad.noMoreUse();
+	}
+}
